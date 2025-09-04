@@ -23,8 +23,8 @@ header h2 {
   line-height: 1;
 }
 a{
-  color:rgba(6, 255, 243, 0.788);
-  font-weight: 700;
+  color:rgb(56, 209, 255);
+  
 }
 header h2 {
   margin-top: 5px;
@@ -139,7 +139,7 @@ h4{
 .habilidades{
   display: inline-block;
   vertical-align: top;
-  background-color: #5106e8;
+  background-color: #5106e865;
   padding: 5%;
   width: 28%;
 }

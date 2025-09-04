@@ -22,7 +22,10 @@ header h2 {
   font-weight: normal;
   line-height: 1;
 }
-
+a{
+  color:rgba(5, 189, 180, 0.664);
+  font-weight: 700;
+}
 header h2 {
   margin-top: 5px;
   opacity: 0.5;

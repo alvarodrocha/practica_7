@@ -151,6 +151,7 @@ h4{
 
 .carta_presentacion{
   text-align: justify;
+  margin: 15px;
 }
 
 .grafico {
@@ -233,7 +234,93 @@ h4{
 .descripcion_puesto{
   margin-top:3%;
   text-align: justify;
+ 
+}
+/* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    width: 95%;
+    background-color: #260536;
+  }
 }
 
+@media (max-width: 768px) {
+  .contenido_cv {
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    background-color: #260536;
+  }
+  .habilidades,
+  .experiencia {
+    width: 90%;
+    margin-bottom: 20px;
+    background-color: #1aa34ecb;
+  }
+
+  .nombre_puesto h1 {
+    font-size: 2.2em;
+  }
+
+  .nombre_puesto h2 {
+    font-size: 1.2em;
+  }
+
+  .contenedor_foto_perfil {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 2%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2, h3, h4 {
+    font-size: 1em;
+    margin:3%;
+  }
+
+  .grafico {
+    width: 28px;
+    height: 28px;
+  }
+
+  .contenedor_foto_perfil {
+    width: 150px;
+    height: 150px;
+  }
+
+  .habilidades,
+  .experiencia {
+    width: 100%;
+    padding: 10px;
+  }
+  .nombre_empresa{
+    display: inline-block;
+    margin:2%;
+    vertical-align: top;
+    width: 40%;
+  }
+  .año_puesto{
+    display: inline-block;
+    margin-right:2%;
+  }
+  .experiencia h3 {
+    text-align: center;
+  }
+  .descripcion_puesto{
+    margin:3%;
+    text-align: justify;
+  }
+}
 
 
